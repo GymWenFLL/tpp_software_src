@@ -50,7 +50,7 @@ struct conndev {
 	char processorLogEnable[1];	// Don't set the bit, unless you compile a failSave Mode Driver...
 	int memLogMode;
 	char memLogEnable[1];		// Don't set the bit, unless you compile a failSave Mode Driver...
-}
+};
 
 struct conndev connTypeA;
 struct conndev connTypeB;
